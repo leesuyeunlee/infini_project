@@ -39,7 +39,9 @@ main .visual div .youtube{
 
 }
 main .visual div .youtube > video{width: 100%;
-
+}
+main .visual .first_slide .txt {
+    
 }
 main .visual div .txt span {}
 main .visual div .txt span img{
@@ -48,6 +50,13 @@ main .visual div .txt h1{
     position: absolute; left: 100px; top: 800px; 
     color: #fff;
     font-size: 2.5rem;
+}
+main .visual .first_slide .btn{
+    position: absolute; left: 100px; top: 900px; 
+    color: #fff;
+    font-size: 1.25rem;
+    border: 1px solid #fff;
+    padding: 10px;
 }
 
 main .contents {}
