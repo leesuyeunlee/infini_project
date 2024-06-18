@@ -1,0 +1,58 @@
+header {
+
+    height: 62px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background:rgba(0,0,0,.2); width: 100%;
+
+}
+header h1 {width: 111px;}
+header h1 a {margin:10px 100px 0px;}
+header h1 a img{
+    width: 100px;
+
+}
+header nav {
+    position: absolute;
+    right: calc(10%);
+}
+header nav a{
+    position: relative; left: 0; top: 0;
+    color: #fff;margin-right: 50px;}
+header nav a:nth-child(6){margin: 0px;}
+header .lnb {}
+header .lnb .m_nav {}
+header .lnb .m_nav .all_nav{}
+header .lnb .m_nav .all_nav img {margin-right: 87px;}
+
+
+main .visual {
+    background-color: aqua;
+    height: 1073px; background-size: cover;
+}
+main .visual .first_slide {}
+main .visual div .youtube{
+
+
+}
+main .visual div .youtube > video{width: 100%;
+
+}
+main .visual div .txt span {}
+main .visual div .txt span img{
+    position: absolute; right: 100px; top: 800px;}
+main .visual div .txt h1{
+    position: absolute; left: 100px; top: 800px; 
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+main .contents {}
+main .contents .products{}
+main .contents .products .title1{}
+main .contents .products .title1 h2{}
+main .contents .products .title1 ul{ display: flex;}
+main .contents .products .title1 ul li{margin-right: 20px;}
