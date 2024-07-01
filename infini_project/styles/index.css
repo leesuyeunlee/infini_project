@@ -7,21 +7,30 @@ header {
     justify-content: space-between;
     position: fixed;
     background:rgba(0,0,0,.2); width: 100%;
+    z-index: 999;
 
 }
 header h1 {width: 111px;}
 header h1 a {margin:10px 100px 0px;}
 header h1 a img{
     width: 100px;
-
 }
 header nav {
     position: absolute;
     right: calc(10%);
 }
-header nav a{
+header nav ul{
+    display: flex;
+}
+header nav ul li {}
+header nav ul li a {
     position: relative; left: 0; top: 0;
-    color: #fff;margin-right: 50px;}
+    color: #fff;margin-right: 50px;
+}
+header nav ul li dl {}
+header nav ul li dl dd {}
+header nav ul li dl dd a {display:none;}
+
 header nav a:nth-child(6){margin: 0px;}
 header .lnb {}
 header .lnb .m_nav {}
@@ -41,7 +50,7 @@ main .visual div .youtube{
 main .visual div .youtube > video{width: 100%;
 }
 main .visual .first_slide .txt {
-    
+    z-index: 999;
 }
 main .visual div .txt span {}
 main .visual div .txt span img{
@@ -53,12 +62,11 @@ main .visual div .txt h1{
 }
 main .visual .first_slide .btn{
     position: absolute; left: 100px; top: 900px; 
-    color: #fff;
     font-size: 1.25rem;
     border: 1px solid #fff;
     padding: 10px;
 }
-
+main .visual .first_slide .btn a{    color: #fff;}
 main .contents {}
 main .contents .products{}
 main .contents .products .title1{}

@@ -7,7 +7,7 @@ div,header,nav,aside,article,section,footer,figure,
 address,blockquote,video,iframe,hr,
 span,em,strong,q,a,sub,sup,details,figcaption,summary,time,s,del,code,mark,img {
     /* font-size:1.0rem; */
-    font-family: 'Noto Sans KR', sans-serif;/* 가장 근접한 글꼴 */
+    font-family: 'Pretendard', sans-serif;/* 가장 근접한 글꼴 */
     font-weight:normal;
     font-style:normal;
     line-height:1.0; margin:0; padding:0;
